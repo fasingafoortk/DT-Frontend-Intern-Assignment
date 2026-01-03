@@ -6,7 +6,15 @@ fetch("data.json")
     data.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
-      card.innerHTML = `<h3>${item.title}</h3><p>${item.description}</p>`;
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+        <button onclick="showAlert('${item.title}')">Learn More</button>
+      `;
       container.appendChild(card);
     });
   });
+
+function showAlert(title) {
+  alert("You clicked: " + title);
+}
