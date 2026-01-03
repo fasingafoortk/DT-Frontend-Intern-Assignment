@@ -1,2 +1,4 @@
-# DT-Frontend-Intern-Assignment
-Frontend Intern assignment for DeepThought (DT).  Built using HTML, CSS, and Vanilla JavaScript, focusing on clean UI, dynamic rendering from JSON, and logical execution aligned with DT’s DeepTech mindset.
+# DT Frontend Intern Assignment
+
+Created using HTML, CSS, and JavaScript.
+This project demonstrates basic UI creation and dynamic rendering using JSON.
